@@ -87,13 +87,7 @@ def list_tasks(): # функция для вывода списка задач
         print(f"Частота уведомлений: {task['notification']}")
         print()
 
-def database_list(): # функция для вывода списка задач
-    for name, task in database.items():
-        print(f"Задача: {task['name']}")
-        print(f"Описание: {task['description']}")
-        print(f"Дедлайн: {task['deadline']}")
-        print(f"Частота уведомлений: {task['notification']}")
-        print()
+
 
 start()
 
